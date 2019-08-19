@@ -6,6 +6,6 @@ public class Question1 {
         Scanner sc = new Scanner(System.in);
         String name;
         name = sc.nextLine();
-        System.out.println("welcome " + name);
+        System.out.println("Welcome, " + name + "!");
     }
 }
