@@ -13,9 +13,9 @@ public class One {
     }
 
     void input(int a) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(a + " * " + i + "=" + a * i);
-
-        }
+        if (a % 400 == 0 || a % 4 == 0)
+            System.out.println("leap year");
+        else
+            System.out.println("not a leap year");
     }
 }
